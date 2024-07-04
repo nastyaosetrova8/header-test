@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header-page">
+        <!-- === HEADER-UPPER ===  -->
+
+        <div class="header-page__upper">
+          <div class="header-page__upper__container">
+            <address class="links">
+              <ul class="list links-menu">
+                <li class="link-item">
+                  <a
+                    class="link contact-link address"
+                    href="https://maps.app.goo.gl/23wbANH5eFinVDgy9"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg
+                      class="icon"
+                      aria-label="address"
+                      width="26"
+                      height="26"
+                    >
+                      <use href="./public/sprite.svg#address"></use>
+                    </svg>
+                    м. Київ, вул. Антоновича 34</a
+                  >
+                </li>
+                <li class="link-item">
+                  <a class="link contact-link" href="mailto:info@usap.ua">
+                    <svg class="icon" aria-label="email" width="26" height="26">
+                      <use href="./public/sprite.svg#email"></use>
+                    </svg>
+                    info@usap.ua</a
+                  >
+                </li>
+                <li class="contact-item">
+                  <a class="link contact-link" href="tel:+380674804684">
+                    <svg class="icon" aria-label="tel" width="26" height="26">
+                      <use href="./public/sprite.svg#tel"></use>
+                    </svg>
+                    (067) 480-46-84</a
+                  >
+                </li>
+              </ul>
+            </address>
+
+            <nav class="nav-pages">
+              <ul class="list nav-menu">
+                <li class="nav-item">
+                  <a class="link nav-link" href="./index.html">Контакти</a>
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="./about-company.html"
+                    >Про компанію</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="link nav-link" href="./blog.html">Блог</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <!-- === HEADER-LOWER ===  -->
+
+        <div class="header-page__lower">
+          <a class="link logo" href="./index.html">
+            <svg class="logo" aria-label="logo">
+              <use href="./public/sprite.svg#logo"></use>
+            </svg>
+          </a>
+
+          <ul class="header-page__lower-menu">
+            <li class="header-page__lower-item header-dropdown">
+              <button class="header-dropbtn">
+                Дослідження
+                <svg
+                  class="dropdown-arrow"
+                  aria-label="dropdown arrow"
+                  width="22"
+                  height="22"
+                >
+                  <use href="./public/sprite.svg#dropdown-arrow"></use>
+                </svg>
+              </button>
+              <ul class="header-dropdown__list list-one">
+                <li class="header-dropdown__item"><a href="#">ГМО</a></li>
+                <li class="header-dropdown__item"><a href="#">Олійні</a></li>
+                <li class="header-dropdown__item"><a href="#">Зернові</a></li>
+                <li class="header-dropdown__item"><a href="#">Паливо</a></li>
+                <li class="header-dropdown__item all-items">
+                  <a href="#">Всі дослідження</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header-page__lower-item header-dropdown">
+              <button class="header-dropbtn">
+                Консалтинг
+                <svg
+                  class="dropdown-arrow"
+                  aria-label="dropdown arrow"
+                  width="22"
+                  height="22"
+                >
+                  <use href="./public/sprite.svg#dropdown-arrow"></use>
+                </svg>
+              </button>
+              <ul class="header-dropdown__list list-united">
+                <li>
+                  <ul class="list-one">
+                    <li class="header-dropdown__item info">Розробка систем</li>
+                    <li class="header-dropdown__item">
+                      <a href="#">ISO 22000</a>
+                    </li>
+                    <li class="header-dropdown__item">
+                      <a href="#">ISO 27001</a>
+                    </li>
+                    <li class="header-dropdown__item">
+                      <a href="#">ISO 15189</a>
+                    </li>
+                    <li class="header-dropdown__item">
+                      <a href="#">ISO 15189</a>
+                    </li>
+                    <li class="header-dropdown__item all-items">
+                      <a href="#">Всі системи</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="list-one">
+                    <li class="header-dropdown__item info">
+                      Сертифікація продукції
+                    </li>
+                    <li class="header-dropdown__item">
+                      <a href="#">Миючі засоби</a>
+                    </li>
+                    <li class="header-dropdown__item">
+                      <a href="#">Харчові продукти</a>
+                    </li>
+                    <li class="header-dropdown__item">
+                      <a href="#">Іграшки</a>
+                    </li>
+                    <li class="header-dropdown__item">
+                      <a href="#">Сертифікат відповідності</a>
+                    </li>
+                    <li class="header-dropdown__item all-items">
+                      <a href="#">Всі системи</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <a class="header-page__lower-link" href="#">Сертифікація</a>
+            </li>
+            <li>
+              <a class="header-page__lower-link" href="#">Навчання</a>
+            </li>
+            <li>
+              <a class="header-page__lower-link" href="#">Наші клієнти</a>
+            </li>
+          </ul>
+          <div class="mobile-wrapper__form-button">
+            <form class="search-form" id="search-form">
+              <input
+                type="text"
+                name="searchQuery"
+                autocomplete="off"
+                placeholder="Пошук"
+              />
+              <button type="submit" class="search">
+                <svg class="searching" aria-label="searching">
+                  <use href="./public/sprite.svg#searching"></use>
+                </svg>
+              </button>
+            </form>
+
+            <!--=== MOBILE MENU OPEN BTN  ===-->
+            <button class="mobile-menu-open js-open-menu" type="button">
+              <svg
+                class="mobile-menu-open-icon"
+                aria-label="page menu and contacts"
+              >
+                <use href="./public/sprite.svg#burger"></use>
+              </svg>
+            </button>
+            <!-- ====== -->
+          </div>
+
+          <button class="language-btn">ua</button>
+        </div>
+      </header>
+    </div>
+
+    <!-- === MOBILE MENU HEADER ===-->
+
+    <div class="mobile-menu js-menu-container">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close-btn js-close-menu" type="button">
+          <svg
+            class="mobile-menu-close-btn-icon"
+            aria-label="close button"
+            width="18"
+            height="18"
+          >
+            <use href="./public/sprite.svg#close-menu"></use>
+          </svg>
+        </button>
+
+        <button class="mobile-language-btn">ua</button>
+
+        <ul class="m-header-page__lower-menu">
+          <li class="m-header-page__lower-item m-header-dropdown">
+            <button class="m-header-dropbtn">
+              Дослідження
+              <svg
+                class="m-dropdown-arrow"
+                aria-label="dropdown arrow"
+                width="22"
+                height="22"
+              >
+                <use href="./public/sprite.svg#dropdown-arrow"></use>
+              </svg>
+            </button>
+            <ul class="m-header-dropdown__list list-one">
+              <li class="m-header-dropdown__item"><a href="#">ГМО</a></li>
+              <li class="m-header-dropdown__item"><a href="#">Олійні</a></li>
+              <li class="m-header-dropdown__item"><a href="#">Зернові</a></li>
+              <li class="m-header-dropdown__item"><a href="#">Паливо</a></li>
+              <li class="m-header-dropdown__item all-items">
+                <a href="#">Всі дослідження</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="m-header-page__lower-item m-header-dropdown">
+            <button class="m-header-dropbtn">
+              Консалтинг
+              <svg
+                class="m-dropdown-arrow"
+                aria-label="dropdown arrow"
+                width="22"
+                height="22"
+              >
+                <use href="./public/sprite.svg#dropdown-arrow"></use>
+              </svg>
+            </button>
+            <ul class="m-header-dropdown__list list-united">
+              <li>
+                <ul class="m-list-one">
+                  <li class="m-header-dropdown__item info">Розробка систем</li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">ISO 22000</a>
+                  </li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">ISO 27001</a>
+                  </li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">ISO 15189</a>
+                  </li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">ISO 15189</a>
+                  </li>
+                  <li class="m-header-dropdown__item all-items">
+                    <a href="#">Всі системи</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="m-list-one">
+                  <li class="m-header-dropdown__item info">
+                    Сертифікація продукції
+                  </li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">Миючі засоби</a>
+                  </li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">Харчові продукти</a>
+                  </li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">Іграшки</a>
+                  </li>
+                  <li class="m-header-dropdown__item">
+                    <a href="#">Сертифікат відповідності</a>
+                  </li>
+                  <li class="m-header-dropdown__item all-items">
+                    <a href="#">Всі системи</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="m-header-page__lower-item">
+            <a class="m-header-page__lower-link" href="#">Сертифікація</a>
+          </li>
+          <li class="m-header-page__lower-item">
+            <a class="m-header-page__lower-link" href="#">Навчання</a>
+          </li>
+          <li class="m-header-page__lower-item">
+            <a class="m-header-page__lower-link" href="#">Наші клієнти</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
