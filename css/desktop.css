@@ -29,8 +29,9 @@
     padding-bottom: 17px;
   }
 
-  .contact-link.address {
+  .contact-link.address span {
     max-width: none;
+    width: 100%;
   }
 
   .icon {
