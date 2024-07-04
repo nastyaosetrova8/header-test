@@ -99,10 +99,10 @@
     display: none;
     position: absolute;
     padding: 25px 20px;
-    background-color: #ffffff;
+    background-color: var(--primary-bg-color);
     border-radius: 19px;
-    border-top: 3px solid #7dcaeb;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+    border-top: 3px solid var(--dropdown-border-color);
+    box-shadow: 0px 4px 20px 0px var(--shadow-color);
     z-index: 1;
   }
 
@@ -145,7 +145,7 @@
   }
 
   .header-dropdown__item:hover {
-    background-color: rgba(207, 244, 129, 0.5);
+    background-color: var(--secondary-bg-color);
   }
 
   .search-form {
@@ -177,7 +177,7 @@
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
-    background-color: rgb(207, 244, 129);
+    background-color: var(--light-secondary-bg-color);
     border: none;
     border-radius: 49px;
     transform: scale(1);
